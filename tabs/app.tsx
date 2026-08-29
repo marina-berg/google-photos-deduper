@@ -782,6 +782,8 @@ export default function App() {
             totalEstimate={state.totalEstimate}
             message={state.message}
             onCancel={handleCancelScan}
+            oldestUploadedAt={state.oldestUploadedAt}
+            oldestTakenAt={state.oldestTakenAt}
           />
         )}
 
